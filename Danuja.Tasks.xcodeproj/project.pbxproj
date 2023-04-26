@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD62389C29F8DD6E00D99FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62389B29F8DD6E00D99FAC /* AppDelegate.swift */; };
+		AD62389E29F8DD6E00D99FAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62389D29F8DD6E00D99FAC /* SceneDelegate.swift */; };
+		AD6238A029F8DD6E00D99FAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62389F29F8DD6E00D99FAC /* ViewController.swift */; };
+		AD6238A329F8DD6E00D99FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6238A129F8DD6E00D99FAC /* Main.storyboard */; };
+		AD6238A529F8DD7000D99FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6238A429F8DD7000D99FAC /* Assets.xcassets */; };
+		AD6238A829F8DD7000D99FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6238A629F8DD7000D99FAC /* LaunchScreen.storyboard */; };
+		AD6238B329F8DD7000D99FAC /* Danuja_TasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6238B229F8DD7000D99FAC /* Danuja_TasksTests.swift */; };
+		AD6238BD29F8DD7000D99FAC /* Danuja_TasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6238BC29F8DD7000D99FAC /* Danuja_TasksUITests.swift */; };
+		AD6238BF29F8DD7000D99FAC /* Danuja_TasksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6238BE29F8DD7000D99FAC /* Danuja_TasksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD6238AF29F8DD7000D99FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD62389029F8DD6E00D99FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD62389729F8DD6E00D99FAC;
+			remoteInfo = Danuja.Tasks;
+		};
+		AD6238B929F8DD7000D99FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD62389029F8DD6E00D99FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD62389729F8DD6E00D99FAC;
+			remoteInfo = Danuja.Tasks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD62389829F8DD6E00D99FAC /* Danuja.Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Danuja.Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD62389B29F8DD6E00D99FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD62389D29F8DD6E00D99FAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD62389F29F8DD6E00D99FAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD6238A229F8DD6E00D99FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD6238A429F8DD7000D99FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD6238A729F8DD7000D99FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD6238A929F8DD7000D99FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6238AE29F8DD7000D99FAC /* Danuja.TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Danuja.TasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6238B229F8DD7000D99FAC /* Danuja_TasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Danuja_TasksTests.swift; sourceTree = "<group>"; };
+		AD6238B829F8DD7000D99FAC /* Danuja.TasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Danuja.TasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6238BC29F8DD7000D99FAC /* Danuja_TasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Danuja_TasksUITests.swift; sourceTree = "<group>"; };
+		AD6238BE29F8DD7000D99FAC /* Danuja_TasksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Danuja_TasksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD62389529F8DD6E00D99FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6238AB29F8DD7000D99FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6238B529F8DD7000D99FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD62388F29F8DD6E00D99FAC = {
+			isa = PBXGroup;
+			children = (
+				AD62389A29F8DD6E00D99FAC /* Danuja.Tasks */,
+				AD6238B129F8DD7000D99FAC /* Danuja.TasksTests */,
+				AD6238BB29F8DD7000D99FAC /* Danuja.TasksUITests */,
+				AD62389929F8DD6E00D99FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD62389929F8DD6E00D99FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD62389829F8DD6E00D99FAC /* Danuja.Tasks.app */,
+				AD6238AE29F8DD7000D99FAC /* Danuja.TasksTests.xctest */,
+				AD6238B829F8DD7000D99FAC /* Danuja.TasksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD62389A29F8DD6E00D99FAC /* Danuja.Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				AD62389B29F8DD6E00D99FAC /* AppDelegate.swift */,
+				AD62389D29F8DD6E00D99FAC /* SceneDelegate.swift */,
+				AD62389F29F8DD6E00D99FAC /* ViewController.swift */,
+				AD6238A129F8DD6E00D99FAC /* Main.storyboard */,
+				AD6238A429F8DD7000D99FAC /* Assets.xcassets */,
+				AD6238A629F8DD7000D99FAC /* LaunchScreen.storyboard */,
+				AD6238A929F8DD7000D99FAC /* Info.plist */,
+			);
+			path = Danuja.Tasks;
+			sourceTree = "<group>";
+		};
+		AD6238B129F8DD7000D99FAC /* Danuja.TasksTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD6238B229F8DD7000D99FAC /* Danuja_TasksTests.swift */,
+			);
+			path = Danuja.TasksTests;
+			sourceTree = "<group>";
+		};
+		AD6238BB29F8DD7000D99FAC /* Danuja.TasksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD6238BC29F8DD7000D99FAC /* Danuja_TasksUITests.swift */,
+				AD6238BE29F8DD7000D99FAC /* Danuja_TasksUITestsLaunchTests.swift */,
+			);
+			path = Danuja.TasksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD62389729F8DD6E00D99FAC /* Danuja.Tasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6238C229F8DD7000D99FAC /* Build configuration list for PBXNativeTarget "Danuja.Tasks" */;
+			buildPhases = (
+				AD62389429F8DD6E00D99FAC /* Sources */,
+				AD62389529F8DD6E00D99FAC /* Frameworks */,
+				AD62389629F8DD6E00D99FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Danuja.Tasks;
+			productName = Danuja.Tasks;
+			productReference = AD62389829F8DD6E00D99FAC /* Danuja.Tasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD6238AD29F8DD7000D99FAC /* Danuja.TasksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6238C529F8DD7000D99FAC /* Build configuration list for PBXNativeTarget "Danuja.TasksTests" */;
+			buildPhases = (
+				AD6238AA29F8DD7000D99FAC /* Sources */,
+				AD6238AB29F8DD7000D99FAC /* Frameworks */,
+				AD6238AC29F8DD7000D99FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD6238B029F8DD7000D99FAC /* PBXTargetDependency */,
+			);
+			name = Danuja.TasksTests;
+			productName = Danuja.TasksTests;
+			productReference = AD6238AE29F8DD7000D99FAC /* Danuja.TasksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD6238B729F8DD7000D99FAC /* Danuja.TasksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6238C829F8DD7000D99FAC /* Build configuration list for PBXNativeTarget "Danuja.TasksUITests" */;
+			buildPhases = (
+				AD6238B429F8DD7000D99FAC /* Sources */,
+				AD6238B529F8DD7000D99FAC /* Frameworks */,
+				AD6238B629F8DD7000D99FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD6238BA29F8DD7000D99FAC /* PBXTargetDependency */,
+			);
+			name = Danuja.TasksUITests;
+			productName = Danuja.TasksUITests;
+			productReference = AD6238B829F8DD7000D99FAC /* Danuja.TasksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD62389029F8DD6E00D99FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AD62389729F8DD6E00D99FAC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AD6238AD29F8DD7000D99FAC = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AD62389729F8DD6E00D99FAC;
+					};
+					AD6238B729F8DD7000D99FAC = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AD62389729F8DD6E00D99FAC;
+					};
+				};
+			};
+			buildConfigurationList = AD62389329F8DD6E00D99FAC /* Build configuration list for PBXProject "Danuja.Tasks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD62388F29F8DD6E00D99FAC;
+			productRefGroup = AD62389929F8DD6E00D99FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD62389729F8DD6E00D99FAC /* Danuja.Tasks */,
+				AD6238AD29F8DD7000D99FAC /* Danuja.TasksTests */,
+				AD6238B729F8DD7000D99FAC /* Danuja.TasksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD62389629F8DD6E00D99FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6238A829F8DD7000D99FAC /* LaunchScreen.storyboard in Resources */,
+				AD6238A529F8DD7000D99FAC /* Assets.xcassets in Resources */,
+				AD6238A329F8DD6E00D99FAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6238AC29F8DD7000D99FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6238B629F8DD7000D99FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD62389429F8DD6E00D99FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6238A029F8DD6E00D99FAC /* ViewController.swift in Sources */,
+				AD62389C29F8DD6E00D99FAC /* AppDelegate.swift in Sources */,
+				AD62389E29F8DD6E00D99FAC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6238AA29F8DD7000D99FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6238B329F8DD7000D99FAC /* Danuja_TasksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6238B429F8DD7000D99FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6238BF29F8DD7000D99FAC /* Danuja_TasksUITestsLaunchTests.swift in Sources */,
+				AD6238BD29F8DD7000D99FAC /* Danuja_TasksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD6238B029F8DD7000D99FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD62389729F8DD6E00D99FAC /* Danuja.Tasks */;
+			targetProxy = AD6238AF29F8DD7000D99FAC /* PBXContainerItemProxy */;
+		};
+		AD6238BA29F8DD7000D99FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD62389729F8DD6E00D99FAC /* Danuja.Tasks */;
+			targetProxy = AD6238B929F8DD7000D99FAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD6238A129F8DD6E00D99FAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6238A229F8DD6E00D99FAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD6238A629F8DD7000D99FAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6238A729F8DD7000D99FAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD6238C029F8DD7000D99FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD6238C129F8DD7000D99FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD6238C329F8DD7000D99FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Danuja.Tasks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rtdf.Danuja-Tasks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD6238C429F8DD7000D99FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Danuja.Tasks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rtdf.Danuja-Tasks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD6238C629F8DD7000D99FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rtdf.Danuja-TasksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Danuja.Tasks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Danuja.Tasks";
+			};
+			name = Debug;
+		};
+		AD6238C729F8DD7000D99FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rtdf.Danuja-TasksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Danuja.Tasks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Danuja.Tasks";
+			};
+			name = Release;
+		};
+		AD6238C929F8DD7000D99FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rtdf.Danuja-TasksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Danuja.Tasks;
+			};
+			name = Debug;
+		};
+		AD6238CA29F8DD7000D99FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rtdf.Danuja-TasksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Danuja.Tasks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD62389329F8DD6E00D99FAC /* Build configuration list for PBXProject "Danuja.Tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6238C029F8DD7000D99FAC /* Debug */,
+				AD6238C129F8DD7000D99FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6238C229F8DD7000D99FAC /* Build configuration list for PBXNativeTarget "Danuja.Tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6238C329F8DD7000D99FAC /* Debug */,
+				AD6238C429F8DD7000D99FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6238C529F8DD7000D99FAC /* Build configuration list for PBXNativeTarget "Danuja.TasksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6238C629F8DD7000D99FAC /* Debug */,
+				AD6238C729F8DD7000D99FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6238C829F8DD7000D99FAC /* Build configuration list for PBXNativeTarget "Danuja.TasksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6238C929F8DD7000D99FAC /* Debug */,
+				AD6238CA29F8DD7000D99FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD62389029F8DD6E00D99FAC /* Project object */;
+}
